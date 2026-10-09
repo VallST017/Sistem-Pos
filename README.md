@@ -1,16 +1,21 @@
-# React + Vite
+# Sistem POS & Akuntansi Toko (Kelompok 4)
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Aplikasi POS dan akuntansi toko dengan 7 peran (RBAC):
+Owner, Kepala Toko, Bagian Keuangan, Akunting, Kepala Gudang, Kasir, dan Sales.
 
-Currently, two official plugins are available:
+## Fitur
+- Order pelanggan (Sales) dan pembayaran (Kasir)
+- Persetujuan diskon, void, dan hapus buku oleh Kepala Toko
+- Penerimaan barang, stok opname, kartu stok (Kepala Gudang)
+- Jurnal otomatis, rekonsiliasi persediaan, dan log audit
+- Laporan: penjualan, persediaan, laba rugi, neraca, arus kas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Cara menjalankan
+npm install
+npm run dev
 
-## React Compiler
+## Akun uji (password 123)
+owner, kepala, keuangan, akunting, gudang, kasir, sales
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the Oxlint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## Teknologi
+React, Vite, Tailwind CSS, React Router
