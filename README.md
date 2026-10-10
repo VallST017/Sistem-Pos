@@ -20,7 +20,7 @@ Aplikasi POS dan akuntansi toko dengan 7 peran (RBAC): Owner, Kepala Toko, Bagia
 
 | Falah | 240131019 | Inventori Gudang (penerimaan, opname, kartu stok, hapus buku) dan persetujuan Kepala Toko | Gudang.jsx, Persetujuan.jsx |
 
-| Hasan | 2401 | Jurnal akuntansi, rekonsiliasi persediaan, dan laporan keuangan | Jurnal.jsx, Laporan.jsx |
+| Hasan | 23 | Jurnal akuntansi, rekonsiliasi persediaan, dan laporan keuangan | Jurnal.jsx, Laporan.jsx |
 
 | Rival | 240131025 | Data pusat dan jurnal otomatis, deployment (GitHub dan Vercel), README, dan dokumen perancangan | store.jsx, README.md, docs/, vercel.json |
 
