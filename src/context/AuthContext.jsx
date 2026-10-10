@@ -1,13 +1,13 @@
 import { createContext, useContext, useState } from 'react'
  
 export const USERS = [
-  { username: 'owner', password: '123', nama: 'Pak Udin', role: 'owner', label: 'Owner' },
-  { username: 'kepala', password: '123', nama: 'Rina', role: 'kepala_toko', label: 'Kepala Toko' },
-  { username: 'keuangan', password: '123', nama: 'Andi', role: 'keuangan', label: 'Bagian Keuangan' },
-  { username: 'akunting', password: '123', nama: 'Maya', role: 'akunting', label: 'Akunting' },
-  { username: 'gudang', password: '123', nama: 'Sari', role: 'kepala_gudang', label: 'Kepala Gudang' },
-  { username: 'kasir', password: '123', nama: 'Budi', role: 'kasir', label: 'Kasir' },
-  { username: 'sales', password: '123', nama: 'Dewi', role: 'sales', label: 'Sales' },
+  { username: 'owner', password: '123', nama: 'Dewan', role: 'owner', label: 'Owner' },
+  { username: 'kepala', password: '123', nama: 'Fakhri', role: 'kepala_toko', label: 'Kepala Toko' },
+  { username: 'keuangan', password: '123', nama: 'Falah', role: 'keuangan', label: 'Bagian Keuangan' },
+  { username: 'akunting', password: '123', nama: 'Hasan', role: 'akunting', label: 'Akunting' },
+  { username: 'gudang', password: '123', nama: 'Rival', role: 'kepala_gudang', label: 'Kepala Gudang' },
+  { username: 'kasir', password: '123', nama: 'Ronaldo', role: 'kasir', label: 'Kasir' },
+  { username: 'sales', password: '123', nama: 'Messi', role: 'sales', label: 'Sales' },
 ]
  
 const Ctx = createContext()
